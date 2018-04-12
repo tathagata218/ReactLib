@@ -1,0 +1,24 @@
+.button{
+    height:40px;
+    width: 40px;
+    border: none;
+    background-color: #C62828;
+    border-radius : 50%;
+    color: white;
+    font-size : 25px;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5)
+}
+
+.button:hover {
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5)
+}
+
+.button:active{
+    outline: none;
+    border:  none;
+}
+.button:focus{
+    outline: none;
+}
